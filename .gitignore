@@ -1,0 +1,19 @@
+# Firebase configuration files
+firebase.json              # ไฟล์สำหรับตั้งค่า Firebase Hosting และฟีเจอร์อื่นๆ
+.firebaserc                # เก็บการตั้งค่าโปรเจ็กต์ Firebase
+
+# Firebase service account keys
+serviceAccountKey.json      # คีย์ที่ใช้เชื่อมต่อ Firebase Admin SDK (ห้ามแชร์)
+
+# Firebase environment variables (ถ้ามีไฟล์ที่เก็บคีย์ API หรือข้อมูลลับ)
+.env                        # ไฟล์ที่เก็บข้อมูลคีย์ API หรือข้อมูลลับอื่น ๆ
+
+# Firebase CLI files
+.firebase/                  # โฟลเดอร์ที่สร้างโดย Firebase CLI เพื่อจัดเก็บข้อมูลสถานะ
+
+# ไฟล์ที่ใช้ในการ build หรือจัดเก็บข้อมูลที่ไม่จำเป็น
+node_modules/              # โฟลเดอร์ที่เก็บ dependency ของโปรเจ็กต์ Node.js
+*.log                       # ไฟล์ log ต่าง ๆ ที่ไม่จำเป็นต้องแชร์
+dist/                       # ไฟล์ที่ได้จากการ build โปรเจ็กต์
+build/                      # โฟลเดอร์ build ไฟล์
+node_modules
